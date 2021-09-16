@@ -1,0 +1,118 @@
+$hovercomprar: lightblue;
+$margincomprar: 0px 100px;
+main{
+    .contenedor{
+        margin: 50px auto 50px auto;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 350px;
+        justify-items: center;
+                .contenedor__acolchado{
+                    background-image: url(img/acolchado.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 300px;
+                    height: 300px;
+                    color: white;
+                    text-align: center;
+                    box-sizing: border-box;
+                        .contenedor__acolchado-texto{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            height: 100%;
+                                    h6{
+                                        text-align: center;
+                                        border: 1px solid white;
+                                        margin: $margincomprar;
+                                        padding: 5px;
+                                        transition: all 1s;
+                                            &:hover{
+                                                cursor: pointer;
+                                                background-color: $hovercomprar;
+                                            }
+                                    }
+                        }
+                }
+                .contenedor__sabana{
+                    background-image: url(img/sabana2.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 300px;
+                    height: 300px;
+                    text-align: center;
+                    text-align: center;
+                    color: white;
+                    box-sizing: border-box;
+                        .contenedor__sabana-texto{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            height: 100%;
+                                h6{
+                                    text-align: center;
+                                    border: 1px solid white;
+                                    margin: $margincomprar;
+                                    padding: 5px;
+                                    transition: all 1s;
+                                        &:hover{
+                                            cursor: pointer;
+                                            background-color: $hovercomprar;
+                                        }
+                                }
+                        }   
+                }
+                .contenedor__almohada{
+                    background-image: url(img/decoalmoha7.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 300px;
+                    height: 300px;
+                    color: white;
+                    text-align: center;
+                    box-sizing: border-box;
+                        .contenedor__almohada-texto{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            height: 100%;
+                                h6{
+                                    text-align: center;
+                                    border: 1px solid white;
+                                    margin: $margincomprar;
+                                    padding: 5px;
+                                    transition: all 1s;
+                                        &:hover{
+                                            cursor: pointer;
+                                            background-color: $hovercomprar;
+                                        }
+                                }
+                        }
+                }
+    }
+    .presentacion{
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+            img{
+                width: 60px;
+                margin: 5px;
+            }
+            .presentacion__objetivo{
+                font-size: 25px;
+                font-family: 'El Messiri', sans-serif;
+                width: auto;
+                margin: 30px;
+            }
+    }
+    .carr
+        
+    .muestra{
+        .muestra__contenedor{
+            text-align: center;
+                video{
+                    width: 900px;
+                }
+        }
+    }
+
+}

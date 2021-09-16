@@ -1,0 +1,114 @@
+$sombracontenedor: 5px 10px 5px grey;
+.cama{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap:20px;
+    align-items: flex-end;
+        .cama__sabanas-titulo{
+            grid-column: 1/4;
+            grid-row: 1/4;
+        }
+        @for $i from 1 through 3{
+            .cama__sabanas-producto#{$i}{
+                    padding-top: 10px;
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 350px;
+                    height: auto;
+                    box-shadow: $sombracontenedor;
+                        img{
+                            width: 300px;
+                            height: auto;   
+                        }
+                        h5{
+                            margin-top: 15px;
+                            font-size: 15px;
+                        }
+                        h6{
+                            width: 80px;
+                            font-size: 14px;
+                        }
+                        .btn{
+                            &:hover{
+                                border: lightgreen;
+                                background-color: lightgreen;
+                                color: black;
+
+                            }
+                        }
+                }
+            }
+            .cama__acolchados-titulo{
+                grid-column: 1/4;
+                grid-row: 5/8;
+            }
+            @for $i from 1 through 2{
+                .cama__acolchados-producto#{$i}{
+                        padding-top: 10px;
+                        border-radius: 10px;
+                        text-align: center;
+                        width: 350px;
+                        height: auto;
+                        box-shadow: $sombracontenedor;
+                            img{
+                                width: 300px;
+                                height: auto;   
+                            }
+                            h5{
+                                margin-top: 15px;
+                                font-size: 15px;
+                            }
+                            h6{
+                                width: 80px;
+                                font-size: 14px;
+                            }
+                            .btn{
+                                &:hover{    
+                                    border: lightgreen;
+                                    background-color: lightgreen;
+                                    color: black;
+    
+                                }
+                            }
+                    }
+                }
+                .cama__doblepiel-titulo{
+                    grid-column: 1/4;
+                    grid-row: 9/9;
+                }
+                @for $i from 1 through 2{
+                    .cama__doblepiel-producto#{$i}{
+                            grid-column: $i/2;
+                            grid-row: 10/10;
+                            padding-top: 10px;
+                            border-radius: 10px;
+                            text-align: center;
+                            width: 350px;
+                            height: auto;
+                            box-shadow: $sombracontenedor;
+                                img{
+                                    width: 300px;
+                                    height: auto;   
+                                }
+                                h5{
+                                    margin-top: 15px;
+                                    font-size: 15px;
+                                }
+                                h6{
+                                    width: 80px;
+                                    font-size: 14px;
+                                }
+                                .btn{
+                                    &:hover{
+                                        border: lightgreen;
+                                        background-color: lightgreen;
+                                        color: black;
+        
+                                    }
+                                }
+                        }
+                    }
+}

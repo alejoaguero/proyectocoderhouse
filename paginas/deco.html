@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deco - Blanco Noe</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap&family=El+Messiri:wght@500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap&family=El+Messiri:wght@500" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="img/LOGO.png" alt="logo" class="header__logo">
+        </div>
+                <nav class="header__navegador">
+                        <ul>
+                            <div class="header__menu">  
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="deco.html">Deco</a>
+                                    <ul class="header__menu__submenu">
+                                        <li><a href="mantel.html">Mantel</a></li>
+                                        <li><a href="cortinas.html">Cortinas</a></li>
+                                        <li><a href="almohadas.html">Almohadas</a></li>
+                                    </ul>
+                                </li>   
+                                <li><a href="cama.html">Cama</a></li>
+                                <li><a href="banios.html">Baño</a></li>
+                                <li><a href="contacto.html">Contactenos</a></li>
+                            </div> 
+                        </ul>    
+                </nav>
+            </div>
+        </header>
+    <main>
+        <section class="decoracion" name="deco">
+            <div class="decoracion__selector">
+            <label class="decoracion__selector-orden">Ordenar por:</label>
+            <select name="Decoracion" class="form-control decoracion__selector-opcion">
+                <option><a href="#deco">Todos</a></option>
+                <option><a href="#mantel">Mantel</a></option>
+                <option><a href="#cortinas">Cortinas</a></option>
+                <option><a href="#almohadas">Almohadas</a></option>
+            </select>
+            <input type="search" placeholder="Buscar" class="form-control decoracion__selector-buscador">
+            </div>
+            <div class="decoracion__mantel-producto1" name="mantel">
+                <img src="../css/img/decomantel1.jpg" alt="mantel1">
+                <div class="decoracion__mantel-fin">
+                    <h5>Mantel Ecocuero Rectangular 140x250     Lisos</h5>
+                    <h6 class="btn">$900</h6>
+                </div>
+            </div>
+            <div class="decoracion__mantel-producto2" >
+                <img src="../css/img/decomantel2.jpg" alt="mantel2" class="cajaProducto">
+                <h5>Mantel Ecocuero Rectangular 140x250 Lisos</h5>
+                <h6 class="btn">$1200</h6>
+            </div>
+            <div class="decoracion__mantel-producto3" >
+                <img src="../css/img/decomantel7.jpg" alt="mantel3" class="cajaProducto">
+                <h5>Mantel Ecocuero Rectangular 140x250 Chocolate</h5>
+                <h6 class="btn">$1600</h6> 
+            </div>
+            <div class="decoracion__cortinas-producto1" name="cortinas">
+                <img src="../css/img/decocort3.jpg" alt="cortina1" class="cajaProducto">
+                <h5>Cortina de Ambiente Black Out Vinilica</h5>
+                <h6 class="btn btn-primary">$4700</h6>
+            </div>
+            <div class="decoracion__cortinas-producto2">
+                <img src="../css/img/decocort4.jpg" alt="cortina2" class="cajaProducto">
+                <h5>Cortina de Ambiente Doble Pesada</h5>
+                <h6 class="btn btn-primary">$4500</h6>
+            </div>
+            <div class="decoracion__cortinas-producto3">
+                <img src="../css/img/decocort5.png" alt="cortina3" class="cajaProducto">
+                <h5>Cortinas</h5>
+                <h6 class="btn btn-primary">$800</h6>
+            </div> 
+            <div class="decoracion__almohadas-producto1" name="almohadas">
+                <img src="../css/img/decoalmoha5.jpg" alt="almoha1" class="cajaProducto">
+                <h5>Almohadon Agatha Ruiz de la Prada Dibujos</h5>
+                <h6 class="btn btn-primary">$800</h6>
+            </div>
+            <div class="decoracion__almohadas-producto2">
+                <img src="../css/img/decoalmoha6.jpg" alt="almoha2" class="cajaProducto">
+                <h5>Almohadon San Lorenzo</h5>
+                <h6 class="btn btn-primary">$800</h6>
+            </div>
+            <div class="decoracion__almohadas-producto3">
+                <img src="../css/img/decoalmoha7.jpg" alt="almoha3" class="cajaProducto">
+                <h5>Almohadon Estampado Digitla Geom 3</h5>
+                <h6 class="btn btn-primary">$800</h6>
+            </div>
+    </main>
+    <footer class="pie">
+        <p class="h3 pie__tituloemail">Recibi ofertas y novedades en tu mail</p>
+          <div class="pie__email">    
+            <input type="email" name="mail" placeholder="Ingrese su e-mail" class="form-control">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+          <hr>
+          <div class="pie__derechos">
+            <p>&#169 2021 BLANCO NOE Todos los derechos reservados</p>
+          </div>
+          <div class="pie__redes">
+              <a href=""><img src="img/facebook.png" alt="facebook"  class="redes"></a> 
+              <a href=""><img src="img/whatsapp.png" alt="whatsapp" class="redes"></a> 
+              <a href=""><img src="img/instagram.png" alt="instagram" class="redes"></a> 
+              <a href=""><img src="img/twitter.png" alt="twitter" class="redes"></a> 
+          </div>
+      </footer>    
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>       
+</body>

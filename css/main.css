@@ -1,0 +1,1111 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+  background-color: #CCD1D1;
+}
+
+.header .header__logo {
+  margin-left: auto;
+}
+
+.header .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .header__menu li {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header .header__menu li:hover {
+  -webkit-transform: scale(1.15, 1.15);
+          transform: scale(1.15, 1.15);
+}
+
+.header .header__menu li .header__menu__submenu {
+  display: none;
+}
+
+.header .header__menu li a {
+  font-family: 'Oswald', sans-serif;
+  padding: 20px 43px;
+  font-size: 20px;
+  color: #81BBCC;
+  text-decoration: none;
+}
+
+.header .header__menu li a:hover {
+  background-color: #E5EEEE;
+  color: black;
+}
+
+main .contenedor {
+  margin: 50px auto 50px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -ms-grid-rows: 350px;
+      grid-template-rows: 350px;
+  justify-items: center;
+}
+
+main .contenedor .contenedor__acolchado {
+  background-image: url(img/acolchado.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .contenedor .contenedor__acolchado .contenedor__acolchado-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+main .contenedor .contenedor__acolchado .contenedor__acolchado-texto h6 {
+  text-align: center;
+  border: 1px solid white;
+  margin: 0px 100px;
+  padding: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main .contenedor .contenedor__acolchado .contenedor__acolchado-texto h6:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+main .contenedor .contenedor__sabana {
+  background-image: url(img/sabana2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  text-align: center;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .contenedor .contenedor__sabana .contenedor__sabana-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+main .contenedor .contenedor__sabana .contenedor__sabana-texto h6 {
+  text-align: center;
+  border: 1px solid white;
+  margin: 0px 100px;
+  padding: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main .contenedor .contenedor__sabana .contenedor__sabana-texto h6:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+main .contenedor .contenedor__almohada {
+  background-image: url(img/decoalmoha7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .contenedor .contenedor__almohada .contenedor__almohada-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+main .contenedor .contenedor__almohada .contenedor__almohada-texto h6 {
+  text-align: center;
+  border: 1px solid white;
+  margin: 0px 100px;
+  padding: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main .contenedor .contenedor__almohada .contenedor__almohada-texto h6:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+main .presentacion {
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+main .presentacion img {
+  width: 60px;
+  margin: 5px;
+}
+
+main .presentacion .presentacion__objetivo {
+  font-size: 25px;
+  font-family: 'El Messiri', sans-serif;
+  width: auto;
+  margin: 30px;
+}
+
+main .carr
+.muestra .muestra__contenedor {
+  text-align: center;
+}
+
+main .carr
+.muestra .muestra__contenedor video {
+  width: 900px;
+}
+
+.pie {
+  margin-top: 60px;
+  padding: 100px 0px 10px 0px;
+  background-color: #CCD1D1;
+}
+
+.pie .pie__tituloemail {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.pie .pie__email {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 10%;
+      grid-template-columns: 30% 10%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-column-gap: 10px;
+  margin-bottom: 30px;
+}
+
+.pie .pie__derechos {
+  text-align: center;
+  opacity: 0.6;
+}
+
+.pie .pie__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pie img {
+  margin: 0px 20px 0px 0px;
+  width: 30px;
+}
+
+.decoracion {
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.decoracion .decoracion__selector {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.decoracion .decoracion__selector .decoracion__selector-orden {
+  margin-right: 10px;
+}
+
+.decoracion .decoracion__selector .decoracion__selector-opcion {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.decoracion .decoracion__selector .decoracion__selector-buscador {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__mantel-producto1 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+}
+
+.decoracion .decoracion__mantel-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__mantel-producto1 h5 {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.decoracion .decoracion__mantel-producto1 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__mantel-producto1 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+
+.decoracion .decoracion__mantel-producto2 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+}
+
+.decoracion .decoracion__mantel-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__mantel-producto2 h5 {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.decoracion .decoracion__mantel-producto2 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__mantel-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+
+.decoracion .decoracion__mantel-producto3 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+}
+
+.decoracion .decoracion__mantel-producto3 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__mantel-producto3 h5 {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.decoracion .decoracion__mantel-producto3 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__mantel-producto3 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+
+.decoracion .decoracion__cortinas-producto1 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+}
+
+.decoracion .decoracion__cortinas-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__cortinas-producto1 h5 {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.decoracion .decoracion__cortinas-producto1 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__cortinas-producto1 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.decoracion .decoracion__cortinas-producto2 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+}
+
+.decoracion .decoracion__cortinas-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__cortinas-producto2 h5 {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.decoracion .decoracion__cortinas-producto2 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__cortinas-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.decoracion .decoracion__cortinas-producto3 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+}
+
+.decoracion .decoracion__cortinas-producto3 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__cortinas-producto3 h5 {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.decoracion .decoracion__cortinas-producto3 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__cortinas-producto3 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.decoracion .decoracion__almohadas-producto1 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.decoracion .decoracion__almohadas-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__almohadas-producto1 .decoracion__mantel-fin {
+  border: 1px solid black;
+}
+
+.decoracion .decoracion__almohadas-producto1 .decoracion__mantel-fin h5 {
+  border: 1px solid black;
+  margin: 15px 40px 0px 40px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.decoracion .decoracion__almohadas-producto1 .decoracion__mantel-fin h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__almohadas-producto1 .decoracion__mantel-fin .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+
+.decoracion .decoracion__almohadas-producto2 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.decoracion .decoracion__almohadas-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__almohadas-producto2 .decoracion__mantel-fin {
+  border: 1px solid black;
+}
+
+.decoracion .decoracion__almohadas-producto2 .decoracion__mantel-fin h5 {
+  border: 1px solid black;
+  margin: 15px 40px 0px 40px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.decoracion .decoracion__almohadas-producto2 .decoracion__mantel-fin h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__almohadas-producto2 .decoracion__mantel-fin .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+
+.decoracion .decoracion__almohadas-producto3 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.decoracion .decoracion__almohadas-producto3 img {
+  width: 300px;
+  height: auto;
+}
+
+.decoracion .decoracion__almohadas-producto3 .decoracion__mantel-fin {
+  border: 1px solid black;
+}
+
+.decoracion .decoracion__almohadas-producto3 .decoracion__mantel-fin h5 {
+  border: 1px solid black;
+  margin: 15px 40px 0px 40px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.decoracion .decoracion__almohadas-producto3 .decoracion__mantel-fin h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__almohadas-producto3 .decoracion__mantel-fin .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+
+.cama {
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[3];
+      grid-template-columns: repeat(3, 400px);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.cama .cama__sabanas-titulo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+}
+
+.cama .cama__sabanas-producto1 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.cama .cama__sabanas-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.cama .cama__sabanas-producto1 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cama .cama__sabanas-producto1 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.cama .cama__sabanas-producto1 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.cama .cama__sabanas-producto2 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.cama .cama__sabanas-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.cama .cama__sabanas-producto2 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cama .cama__sabanas-producto2 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.cama .cama__sabanas-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.cama .cama__sabanas-producto3 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.cama .cama__sabanas-producto3 img {
+  width: 300px;
+  height: auto;
+}
+
+.cama .cama__sabanas-producto3 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cama .cama__sabanas-producto3 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.cama .cama__sabanas-producto3 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.cama .cama__acolchados-titulo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5/8;
+}
+
+.cama .cama__acolchados-producto1 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.cama .cama__acolchados-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.cama .cama__acolchados-producto1 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cama .cama__acolchados-producto1 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.cama .cama__acolchados-producto1 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.cama .cama__acolchados-producto2 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.cama .cama__acolchados-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.cama .cama__acolchados-producto2 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cama .cama__acolchados-producto2 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.cama .cama__acolchados-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.cama .cama__doblepiel-titulo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 9;
+  grid-row: 9/9;
+}
+
+.cama .cama__doblepiel-producto1 {
+  grid-column: 0.5;
+  -ms-grid-row: 10;
+  grid-row: 10/10;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.cama .cama__doblepiel-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.cama .cama__doblepiel-producto1 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cama .cama__doblepiel-producto1 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.cama .cama__doblepiel-producto1 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.cama .cama__doblepiel-producto2 {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 10;
+  grid-row: 10/10;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.cama .cama__doblepiel-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.cama .cama__doblepiel-producto2 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cama .cama__doblepiel-producto2 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.cama .cama__doblepiel-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.banios {
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[3];
+      grid-template-columns: repeat(3, 400px);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.banios .banios__toallas-titulo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+}
+
+.banios .banios__toallas-producto1 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.banios .banios__toallas-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.banios .banios__toallas-producto1 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.banios .banios__toallas-producto1 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.banios .banios__toallas-producto1 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.banios .banios__toallas-producto2 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.banios .banios__toallas-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.banios .banios__toallas-producto2 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.banios .banios__toallas-producto2 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.banios .banios__toallas-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.banios .banios__toallas-producto3 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.banios .banios__toallas-producto3 img {
+  width: 300px;
+  height: auto;
+}
+
+.banios .banios__toallas-producto3 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.banios .banios__toallas-producto3 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.banios .banios__toallas-producto3 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.banios .banios__cortinasbaño-titulo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 4;
+  grid-row: 5/9;
+}
+
+.banios .banios__cortinasbaño-producto1 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.banios .banios__cortinasbaño-producto1 img {
+  width: 300px;
+  height: auto;
+}
+
+.banios .banios__cortinasbaño-producto1 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.banios .banios__cortinasbaño-producto1 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.banios .banios__cortinasbaño-producto1 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.banios .banios__cortinasbaño-producto2 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+}
+
+.banios .banios__cortinasbaño-producto2 img {
+  width: 300px;
+  height: auto;
+}
+
+.banios .banios__cortinasbaño-producto2 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.banios .banios__cortinasbaño-producto2 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.banios .banios__cortinasbaño-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.mensaje__contacto {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.mensaje__contacto .mensaje__contacto-titulo {
+  font-size: 60px;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.mensaje__contacto .mensaje__contacto-presentacion {
+  font-size: 20px;
+}
+
+.formulario__contenedor {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[2];
+      grid-template-columns: repeat(2, 300px);
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario__contenedor .formulario__contenedor-name {
+  width: 150px;
+}
+
+.formulario__contenedor .formulario__contenedor-apellido {
+  width: 150px;
+}
+
+.formulario__contenedor .formulario__contenedor-numero {
+  width: 150px;
+}
+
+.formulario__contenedor .formulario__contenedor-texto {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+/*# sourceMappingURL=main.css.map */
