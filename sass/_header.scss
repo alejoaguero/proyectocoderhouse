@@ -11,35 +11,52 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
-    background-color: #CCD1D1;
-
+    background-image: linear-gradient(#CCD1D1,white);
             .header__logo{
                 margin-left: auto;
             }
-            .header__menu{
-
-                    display: flex;
-                    flex-direction: row;
-                li{
-                    transition: all 0.5s;
-                            &:hover{
-                                transform: scale(1.15,1.15);
+            ul{
+                padding-left: 0;
+                .header__menu{
+                        display: flex;
+                        flex-direction: row;
+                        @media (max-width: 545px){
+                            flex-direction: column;
+                            text-align: center;
+                        }
+                    hr{
+                        display: none;
+                            @media (max-width:545px){
+                                display: block;
                             }
-                                .header__menu__submenu{
-                                    display: none;
-
+                    }
+                    li{
+                        transition: all 0.5s;
+                                &:hover{
+                                    transform: scale(1.15,1.15);
                                 }
-                                    a{
-                                        font-family: 'Oswald', sans-serif;
-                                        padding: 20px 43px;
-                                        font-size: 20px;
-                                        color: #81BBCC;
-                                        text-decoration: none;
-                                                &:hover{
-                                                    background-color: #E5EEEE;
-                                                    color: black;
-                                                }
+                                    .header__menu__submenu{
+                                        display: none;
+
                                     }
+                                        a{
+                                            font-family: 'Oswald', sans-serif;
+                                            padding: 20px 43px;
+                                            font-size: 20px;
+                                            color: #81BBCC;
+                                            text-decoration: none;
+                                            @media (max-width: 652px){
+                                                padding: 20px 30px;
+                                            }
+                                            @media (max-width:572px){
+                                                padding: 20px 20px;
+                                            }
+                                                    &:hover{
+                                                        background-color: #E5EEEE;
+                                                        color: black;
+                                                    }
+                                        }
+                    }
                 }
             }
 }
