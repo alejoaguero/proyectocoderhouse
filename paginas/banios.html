@@ -12,35 +12,51 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header">
-        <div>
-            <img src="sass/img/LOGO.png" alt="logo" class="header__logo">
-        </div>
-                <nav class="header__navegador">
-                        <ul>
-                            <div class="header__menu">  
-                                <hr>
-                                <li><a href="index.html">Home</a></li>
-                                <hr>
-                                <li><a href="paginas/deco.html">Deco</a>
-                                <hr>
-                                    <ul class="header__menu__submenu">
-                                        <li><a href="mantel.html">Mantel</a></li>
-                                        <li><a href="cortinas.html">Cortinas</a></li>
-                                        <li><a href="almohadas.html">Almohadas</a></li>
-                                    </ul>
-                                </li>   
-                                <li><a href="paginas/cama.html">Cama</a></li>
-                                <hr>
-                                <li><a href="paginas/banios.html">Baño</a></li>
-                                <hr>
-                                <li><a href="paginas/contacto.html">Contactenos</a></li>
-                                <hr>
-                            </div> 
-                        </ul>    
-                </nav>
+    <header class="header"> 
+        <div class="header__login">
+            <h6>Envios sin cargo</h6>
+            <button type="button" class="btn btn-primary boton" data-toggle="modal" data-target="#exampleModalCenter">
+              Iniciar Sesion
+            </button>
+        
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
             </div>
-        </header>
+          </div> 
+        <div class="header__logo">
+          <img src="../css/img/LOGO.png" alt="logo" class="header__cabeza-logo">
+        </div> 
+        <div class="header__sticky">
+          <nav class="header__navegador">
+                  <ul>
+                      <div class="header__menu">  
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./deco.html">Deco</a></li>   
+                        <li><a href="./cama.html">Cama</a></li>
+                        <li><a href="./banios.html">Baño</a></li>
+                        <li><a href="./contacto.html">Contactenos</a></li>
+                      </div>
+                  </ul>    
+          </nav>
+        </div>
+    </header>
     <main>
         <section class="banios">
             <h2 class="banios__toallas-titulo">Toallas</h2>
@@ -83,10 +99,10 @@
             <p>&#169 2021 BLANCO NOE Todos los derechos reservados</p>
           </div>
           <div class="pie__redes">
-              <a href=""><img src="css/img/facebook.png" alt="facebook"  class="redes"></a> 
-              <a href=""><img src="css/img/whatsapp.png" alt="whatsapp" class="redes"></a> 
-              <a href=""><img src="css/img/instagram.png" alt="instagram" class="redes"></a> 
-              <a href=""><img src="css/img/twitter.png" alt="twitter" class="redes"></a> 
+            <a href=""><img src="../css/img/facebook.png" alt="facebook"  class="redes"></a> 
+            <a href=""><img src="../css/img/whatsapp.png" alt="whatsapp" class="redes"></a> 
+            <a href=""><img src="../css/img/instagram.png" alt="instagram" class="redes"></a> 
+            <a href=""><img src="../css/img/twitter.png" alt="twitter" class="redes"></a>
           </div>
       </footer>    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

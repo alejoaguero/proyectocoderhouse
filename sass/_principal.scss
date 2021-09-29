@@ -31,6 +31,11 @@ main{
                     color: white;
                     text-align: center;
                     box-sizing: border-box;
+                    transition: all 0.4s;
+                    &:hover{
+                        border: 5px solid #546588;
+                        transform: scale(1.05,1.05);
+                    }
                     @media (max-width:767px){
                         grid-column: 1/4;
                     }
@@ -62,7 +67,11 @@ main{
                     text-align: center;
                     color: white;
                     box-sizing: border-box;
-                    
+                    transition: all 0.4s;
+                    &:hover{
+                        border: 5px solid #546588;
+                        transform: scale(1.05,1.05);
+                    }
                     @media (max-width:767px){
                         grid-column: 1/4;
                     }
@@ -93,6 +102,11 @@ main{
                     color: white;
                     text-align: center;
                     box-sizing: border-box;
+                    transition: all 0.4s;
+                    &:hover{
+                        border: 5px solid #546588;
+                        transform: scale(1.05,1.05);
+                    }
                         @media (max-width:970px){
                             grid-column: 1/4;
                         }
