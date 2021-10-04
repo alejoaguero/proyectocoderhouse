@@ -1,49 +1,85 @@
 $hovercomprar: lightblue;
 $margincomprar: 0px 100px;
-main{
-    .contenedor{
-        margin: 50px auto 50px auto;
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 350px;
-        justify-items: center;
-            @media (max-width: 970px){
-                grid-template-columns: 50% 50%;
-                grid-template-rows: 1fr;
-                margin: 30px 80px;
-                grid-row-gap: 40px;
-            }
-            @media (max-width:862px){
-                margin: 30px 40px;
-            }
-            @media (max-width:767px){
-                grid-template-columns: 100%;
-            }
-            @media (max-width: 320px){
-                margin: 30px 10px;
-            }
-                .contenedor__acolchado{
-                    background-image: url(img/acolchado.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    width: 300px;
-                    height: 300px;
-                    color: white;
-                    text-align: center;
-                    box-sizing: border-box;
-                    transition: all 0.4s;
-                    &:hover{
-                        border: 5px solid #546588;
-                        transform: scale(1.05,1.05);
+    main{
+        .contenedor{
+            margin: 50px auto 50px auto;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 350px;
+            justify-items: center;
+                @media (max-width: 970px){
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 1fr;
+                    margin: 30px 80px;
+                    grid-row-gap: 40px;
+                }
+                @media (max-width:862px){
+                    margin: 30px 40px;
+                }
+                @media (max-width:767px){
+                    grid-template-columns: 100%;
+                }
+                @media (max-width: 320px){
+                    margin: 30px 10px;
+                }
+                    .contenedor__acolchado{
+                        background-image: url(img/acolchado.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 300px;
+                        height: 300px;
+                        color: white;
+                        text-align: center;
+                        box-sizing: border-box;
+                        transition: all 0.4s;
+                        &:hover{
+                            border: 5px solid #546588;
+                            transform: scale(1.05,1.05);
+                        }
+                        @media (max-width:767px){
+                            grid-column: 1/4;
+                        }
+                            .contenedor__acolchado-texto{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                height: 100%;
+                                        h6{
+                                            text-align: center;
+                                            border: 1px solid white;
+                                            margin: $margincomprar;
+                                            padding: 5px;
+                                            transition: all 1s;
+                                                &:hover{
+                                                    cursor: pointer;
+                                                    background-color: $hovercomprar;
+                                                }
+                                        }
+                            }
                     }
-                    @media (max-width:767px){
-                        grid-column: 1/4;
-                    }
-                        .contenedor__acolchado-texto{
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            height: 100%;
+                    .contenedor__sabana{
+                        background-image: url(img/sabana2.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 300px;
+                        height: 300px;
+                        text-align: center;
+                        text-align: center;
+                        color: white;
+                        box-sizing: border-box;
+                        transition: all 0.4s;
+                        &:hover{
+                            border: 5px solid #546588;
+                            transform: scale(1.05,1.05);
+                        }
+                        @media (max-width:767px){
+                            grid-column: 1/4;
+                        }
+                            .contenedor__sabana-texto{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                height: 100%;
                                     h6{
                                         text-align: center;
                                         border: 1px solid white;
@@ -55,121 +91,59 @@ main{
                                                 background-color: $hovercomprar;
                                             }
                                     }
+                            }   
+                    }
+                    .contenedor__almohada{
+                        background-image: url(img/decoalmoha7.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 300px;
+                        height: 300px;
+                        color: white;
+                        text-align: center;
+                        box-sizing: border-box;
+                        transition: all 0.4s;
+                        &:hover{
+                            border: 5px solid #546588;
+                            transform: scale(1.05,1.05);
                         }
-                }
-                .contenedor__sabana{
-                    background-image: url(img/sabana2.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    width: 300px;
-                    height: 300px;
-                    text-align: center;
-                    text-align: center;
-                    color: white;
-                    box-sizing: border-box;
-                    transition: all 0.4s;
-                    &:hover{
-                        border: 5px solid #546588;
-                        transform: scale(1.05,1.05);
+                            @media (max-width:970px){
+                                grid-column: 1/4;
+                            }
+                            .contenedor__almohada-texto{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                height: 100%;
+                                    h6{
+                                        text-align: center;
+                                        border: 1px solid white;
+                                        margin: $margincomprar;
+                                        padding: 5px;
+                                        transition: all 1s;
+                                            &:hover{
+                                                cursor: pointer;
+                                                background-color: $hovercomprar;
+                                            }
+                                    }
+                            }
                     }
-                    @media (max-width:767px){
-                        grid-column: 1/4;
-                    }
-                        .contenedor__sabana-texto{
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            height: 100%;
-                                h6{
-                                    text-align: center;
-                                    border: 1px solid white;
-                                    margin: $margincomprar;
-                                    padding: 5px;
-                                    transition: all 1s;
-                                        &:hover{
-                                            cursor: pointer;
-                                            background-color: $hovercomprar;
-                                        }
-                                }
-                        }   
-                }
-                .contenedor__almohada{
-                    background-image: url(img/decoalmoha7.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    width: 300px;
-                    height: 300px;
-                    color: white;
-                    text-align: center;
-                    box-sizing: border-box;
-                    transition: all 0.4s;
-                    &:hover{
-                        border: 5px solid #546588;
-                        transform: scale(1.05,1.05);
-                    }
-                        @media (max-width:970px){
-                            grid-column: 1/4;
-                        }
-                        .contenedor__almohada-texto{
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            height: 100%;
-                                h6{
-                                    text-align: center;
-                                    border: 1px solid white;
-                                    margin: $margincomprar;
-                                    padding: 5px;
-                                    transition: all 1s;
-                                        &:hover{
-                                            cursor: pointer;
-                                            background-color: $hovercomprar;
-                                        }
-                                }
-                        }
-                }
-    }
-    .presentacion{
-        margin: 50px 0px 50px 0px;
-        text-align: center;
-            img{
-                width: 60px;
-                margin: 5px;
-            }
-            .presentacion__objetivo{
-                font-size: 25px;
-                font-family: 'El Messiri', sans-serif;
-                width: auto;
-                margin: 30px;
-                    @media (max-width: 320px){
-                        font-size: 20px;
-                    }
-            }
-    }
-    .muestra{
-        .muestra__contenedor{
+        }
+        .presentacion{
+            margin: 50px 0px 50px 0px;
             text-align: center;
-                video{
-                    width: 900px;
-                        @media (max-width: 862px){
-                            width: 750px;
-                        }
-                        @media (max-width: 752px){
-                            width: 650px;
-                        }
-                        @media (max-width:652px){
-                            width: 550px;
-                        }
-                        @media (max-width:510px){
-                            width: 450px;
-                        }
-                        @media (max-width: 425px){
-                            width: 350px;
-                        }
-                        @media (max-width: 360px){
-                            width: 270px;
+                img{
+                    width: 60px;
+                    margin: 5px;
+                }
+                .presentacion__objetivo{
+                    font-size: 25px;
+                    font-family: 'El Messiri', sans-serif;
+                    width: auto;
+                    margin: 30px;
+                        @media (max-width: 320px){
+                            font-size: 20px;
                         }
                 }
         }
     }
-}
