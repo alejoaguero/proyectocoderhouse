@@ -66,7 +66,7 @@ $imagencontenedor: 250px;
                 margin-bottom: 40px;
                 margin-top: 50px;
             }
-            @for $i from 1 through 2{
+            @for $i from 1 through 3{
                 .decoracion__cortinas-producto#{$i}{
                         padding-top: 10px;
                         border-radius: 10px;
@@ -94,7 +94,6 @@ $imagencontenedor: 250px;
                                 &:hover{    
                                     border: lightgreen;
                                     background-color: lightgreen;
-    
                                 }
                             }
                     }
@@ -111,7 +110,7 @@ $imagencontenedor: 250px;
                     margin-bottom: 40px;
                     margin-top: 50px;
                 }
-                @for $i from 1 through 2{
+                @for $i from 1 through 3{
                     .decoracion__almohadas-producto#{$i}{
                             grid-column: $i/2;
                             grid-row: 10/10;

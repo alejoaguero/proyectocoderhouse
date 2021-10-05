@@ -666,6 +666,43 @@ main .presentacion .presentacion__objetivo {
   background-color: lightgreen;
 }
 
+.decoracion .decoracion__cortinas-producto3 {
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1) 1s;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
+}
+
+.decoracion .decoracion__cortinas-producto3:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+.decoracion .decoracion__cortinas-producto3 img {
+  width: 250px;
+  height: auto;
+}
+
+.decoracion .decoracion__cortinas-producto3 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.decoracion .decoracion__cortinas-producto3 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__cortinas-producto3 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+}
+
 .decoracion .decoracion__almohadas-titulo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -759,6 +796,47 @@ main .presentacion .presentacion__objetivo {
 }
 
 .decoracion .decoracion__almohadas-producto2 .btn:hover {
+  border: lightgreen;
+  background-color: lightgreen;
+  color: black;
+}
+
+.decoracion .decoracion__almohadas-producto3 {
+  -ms-grid-column: 1;
+  grid-column: 1.5;
+  -ms-grid-row: 10;
+  grid-row: 10/10;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  height: auto;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1) 1s;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
+}
+
+.decoracion .decoracion__almohadas-producto3:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+.decoracion .decoracion__almohadas-producto3 img {
+  width: 250px;
+  height: auto;
+}
+
+.decoracion .decoracion__almohadas-producto3 h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.decoracion .decoracion__almohadas-producto3 h6 {
+  width: 80px;
+  font-size: 14px;
+}
+
+.decoracion .decoracion__almohadas-producto3 .btn:hover {
   border: lightgreen;
   background-color: lightgreen;
   color: black;
@@ -1114,15 +1192,12 @@ main .presentacion .presentacion__objetivo {
   margin: 10px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (400px)[3];
-      grid-template-columns: repeat(3, 400px);
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (420px)[3];
+      grid-template-columns: repeat(3, 420px);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
   grid-column-gap: 10px;
-  grid-row-gap: 20px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-items: center;
 }
 
 .banios .banios__toallas-titulo {
@@ -1132,20 +1207,36 @@ main .presentacion .presentacion__objetivo {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   grid-row: 1/4;
+  background-color: #4682b4;
+  color: white;
+  width: 500px;
+  opacity: 0.9;
+  text-align: center;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .banios .banios__toallas-producto1 {
   padding-top: 10px;
   border-radius: 10px;
   text-align: center;
-  width: 350px;
+  width: 250px;
   height: auto;
   -webkit-box-shadow: 5px 10px 5px grey;
           box-shadow: 5px 10px 5px grey;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1) 1s;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
+}
+
+.banios .banios__toallas-producto1:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
 }
 
 .banios .banios__toallas-producto1 img {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
@@ -1162,21 +1253,27 @@ main .presentacion .presentacion__objetivo {
 .banios .banios__toallas-producto1 .btn:hover {
   border: lightgreen;
   background-color: lightgreen;
-  color: black;
 }
 
 .banios .banios__toallas-producto2 {
   padding-top: 10px;
   border-radius: 10px;
   text-align: center;
-  width: 350px;
+  width: 250px;
   height: auto;
   -webkit-box-shadow: 5px 10px 5px grey;
           box-shadow: 5px 10px 5px grey;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1) 1s;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
+}
+
+.banios .banios__toallas-producto2:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
 }
 
 .banios .banios__toallas-producto2 img {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
@@ -1193,21 +1290,27 @@ main .presentacion .presentacion__objetivo {
 .banios .banios__toallas-producto2 .btn:hover {
   border: lightgreen;
   background-color: lightgreen;
-  color: black;
 }
 
 .banios .banios__toallas-producto3 {
   padding-top: 10px;
   border-radius: 10px;
   text-align: center;
-  width: 350px;
+  width: 250px;
   height: auto;
   -webkit-box-shadow: 5px 10px 5px grey;
           box-shadow: 5px 10px 5px grey;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1) 1s;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
+}
+
+.banios .banios__toallas-producto3:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
 }
 
 .banios .banios__toallas-producto3 img {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
@@ -1224,7 +1327,6 @@ main .presentacion .presentacion__objetivo {
 .banios .banios__toallas-producto3 .btn:hover {
   border: lightgreen;
   background-color: lightgreen;
-  color: black;
 }
 
 .banios .banios__cortinasbaño-titulo {
@@ -1234,20 +1336,36 @@ main .presentacion .presentacion__objetivo {
   -ms-grid-row: 5;
   -ms-grid-row-span: 4;
   grid-row: 5/9;
+  background-color: #4682b4;
+  color: white;
+  width: 500px;
+  opacity: 0.9;
+  text-align: center;
+  -webkit-box-shadow: 5px 10px 5px grey;
+          box-shadow: 5px 10px 5px grey;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .banios .banios__cortinasbaño-producto1 {
   padding-top: 10px;
   border-radius: 10px;
   text-align: center;
-  width: 350px;
+  width: 250px;
   height: auto;
   -webkit-box-shadow: 5px 10px 5px grey;
           box-shadow: 5px 10px 5px grey;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1) 1s;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
+}
+
+.banios .banios__cortinasbaño-producto1:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
 }
 
 .banios .banios__cortinasbaño-producto1 img {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
@@ -1264,21 +1382,27 @@ main .presentacion .presentacion__objetivo {
 .banios .banios__cortinasbaño-producto1 .btn:hover {
   border: lightgreen;
   background-color: lightgreen;
-  color: black;
 }
 
 .banios .banios__cortinasbaño-producto2 {
   padding-top: 10px;
   border-radius: 10px;
   text-align: center;
-  width: 350px;
+  width: 250px;
   height: auto;
   -webkit-box-shadow: 5px 10px 5px grey;
           box-shadow: 5px 10px 5px grey;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1) 1s;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
+}
+
+.banios .banios__cortinasbaño-producto2:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
 }
 
 .banios .banios__cortinasbaño-producto2 img {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
@@ -1295,55 +1419,83 @@ main .presentacion .presentacion__objetivo {
 .banios .banios__cortinasbaño-producto2 .btn:hover {
   border: lightgreen;
   background-color: lightgreen;
-  color: black;
 }
 
-.mensaje__contacto {
-  margin-top: 50px;
+.contacto {
+  display: -ms-grid;
+  display: grid;
+  grid-column: 1fr 1fr;
+  justify-items: center;
+}
+
+.contacto .contacto__mensaje {
+  margin-top: 10px;
   text-align: center;
 }
 
-.mensaje__contacto .mensaje__contacto-titulo {
-  font-size: 60px;
+.contacto .contacto__mensaje .contacto__mensaje-titulo {
+  font-size: 40px;
   font-family: 'El Messiri', sans-serif;
 }
 
-.mensaje__contacto .mensaje__contacto-presentacion {
-  font-size: 20px;
+.contacto .contacto__mensaje .contacto__mensaje-presentacion {
+  font-size: 15px;
 }
 
-.formulario__contenedor {
-  margin-top: 20px;
+.contacto .contacto__formulario {
+  -webkit-box-shadow: 0px 10px 20px grey;
+          box-shadow: 0px 10px 20px grey;
+  width: 500px;
+}
+
+.contacto .contacto__formulario .contacto__formulario-contenedor {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (300px)[2];
-      grid-template-columns: repeat(2, 300px);
-  -ms-grid-rows: (1fr)[1];
-      grid-template-rows: repeat(1, 1fr);
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: center;
 }
 
-.formulario__contenedor .formulario__contenedor-name {
-  width: 150px;
-}
-
-.formulario__contenedor .formulario__contenedor-apellido {
-  width: 150px;
-}
-
-.formulario__contenedor .formulario__contenedor-numero {
-  width: 150px;
-}
-
-.formulario__contenedor .formulario__contenedor-texto {
+.contacto .contacto__formulario .contacto__formulario-contenedor .contacto__formulario-name {
   -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+}
+
+.contacto .contacto__formulario .contacto__formulario-contenedor .contacto__formulario-apellido {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+}
+
+.contacto .contacto__formulario .contacto__formulario-contenedor .contacto__formulario-numero {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+
+.contacto .contacto__formulario .contacto__formulario-contenedor .contacto__formulario-texto {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+
+.contacto .contacto__formulario .contacto__formulario-contenedor .contacto__formulario-enviar {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  width: 200px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 5px 0 5px 0;
 }
 /*# sourceMappingURL=main.css.map */
