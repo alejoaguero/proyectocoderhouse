@@ -3,21 +3,44 @@ $imagencontenedor: 250px;
 .decoracion{
     margin: 10px;
     display: grid;
-    grid-template-columns: repeat(3,420px);
-    grid-template-rows: 1fr;
     grid-column-gap: 10px;
     justify-items: center;
+    justify-content: center;
+    width: 100%;
+    @media (min-width:480px){
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+        }
+    @media (min-width: 320px){
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+        }
+    @media (min-width: 600px){
+        grid-template-columns: 1fr 1fr;
+        }
+    @media (min-width:1024px){
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+    }
         .decoracion__mantel-titulo{
             grid-row: 1/4;
             grid-column: 1/4;
             background-color: #4682b4;  
             color: white;
-            width: 500px;
             opacity: 0.9;
             text-align: center;
             box-shadow: $sombracontenedor;
             margin-bottom: 40px;
             margin-top: 50px;
+            @media (min-width:320px){
+                width: 270px;
+            }
+            @media (min-width:480px){
+                width: 460px;
+            }
+            @media (min-width:1024px) {
+                width: 500px;
+            }
         }
         @for $i from 1 through 3{
             .decoracion__mantel-producto#{$i}{
@@ -31,6 +54,25 @@ $imagencontenedor: 250px;
                     transition: cubic-bezier(1, 0, 0, 1) 1s;
                     &:hover{
                         transform: scale(1.05,1.05);
+                    }
+                    @media (min-width:320px){
+                        grid-column: 1/4;
+                        margin-top: 10px;
+                    }
+                    @media (min-width:480px){
+                        grid-column: 1/4;
+                        margin-top: 10px;
+                    }
+                    @media (min-width: 600px){
+                        @if $i == 3{    
+                            grid-column: 0;
+                        }
+                            @else{
+                                grid-column: $i;
+                            }
+                    }
+                    @media (min-width:1024px){
+                        grid-column: $i;
                     }
                             img{
                                 width: $imagencontenedor;
@@ -56,15 +98,28 @@ $imagencontenedor: 250px;
             }
             .decoracion__cortinas-titulo{
                 grid-column: 1/4;
-                grid-row: 5/8;
                 background-color: #4682b4;  
                 color: white;
-                width: 500px;
                 opacity: 0.9;
                 text-align: center;
                 box-shadow: $sombracontenedor;
                 margin-bottom: 40px;
                 margin-top: 50px;
+                @media (min-width: 320px){
+                    grid-row: 7/7;
+                    width: 270px;
+                }
+                @media (min-width: 480px){
+                    width: 460px;
+                    grid-row: 7/7;
+                }
+                @media (min-width:600px){
+                    grid-row: 7/6;
+                }
+                @media (min-width:1024px ){
+                    width: 500px;
+                    grid-row: 5/9;
+                }
             }
             @for $i from 1 through 3{
                 .decoracion__cortinas-producto#{$i}{
@@ -77,6 +132,24 @@ $imagencontenedor: 250px;
                         transition: cubic-bezier(1, 0, 0, 1) 1s;
                             &:hover{
                                 transform: scale(1.05,1.05);
+                            }
+                            @media (min-width:320px){
+                                grid-column: 1/4;
+                                margin-top: 10px;
+                            }
+                            @media (min-width:480px){
+                                grid-column: 1/4;
+                            }
+                            @media (min-width: 600px){
+                                @if $i == 3{    
+                                    grid-column: 0;
+                                }
+                                    @else{
+                                        grid-column: $i;
+                                    }
+                            }
+                            @media (min-width:1024px){
+                                grid-column: $i;
                             }
                             img{
                                 width: $imagencontenedor;
@@ -100,7 +173,6 @@ $imagencontenedor: 250px;
                 }
                 .decoracion__almohadas-titulo{
                     grid-column: 1/4;
-                    grid-row: 9/9;
                     background-color: #4682b4;  
                     color: white;
                     width: 500px;
@@ -109,11 +181,24 @@ $imagencontenedor: 250px;
                     box-shadow: $sombracontenedor;
                     margin-bottom: 40px;
                     margin-top: 50px;
+                    @media (min-width: 320px){
+                        grid-row: 10/10;
+                        width: 270px;
+                    }
+                    @media (min-width: 480px){
+                        width: 460px;
+                    }
+                    @media (min-width:600px){
+                        grid-row: 9/9;
+                    }
+                    @media (min-width:1024px ){
+                        width: 500px;
+                        grid-row: 10/10;
+                    }
                 }
                 @for $i from 1 through 3{
                     .decoracion__almohadas-producto#{$i}{
-                            grid-column: $i/2;
-                            grid-row: 10/10;
+                            grid-column: $i/4;  
                             border-radius: 10px;
                             text-align: center;
                             width: $imagencontenedor;
@@ -122,6 +207,24 @@ $imagencontenedor: 250px;
                             transition: cubic-bezier(1, 0, 0, 1) 1s;
                                 &:hover{
                                     transform: scale(1.05,1.05);
+                                }
+                                @media (min-width:320px){
+                                    grid-column: 1/4;
+                                    margin-top: 10px;
+                                }
+                                @media (min-width:480px){
+                                    grid-column: 1/4;
+                                }
+                                @media (min-width: 600px){
+                                    @if $i == 3{    
+                                        grid-column: 0;
+                                    }
+                                        @else{
+                                            grid-column: $i;
+                                        }
+                                }
+                                @media (min-width:1024px){
+                                    grid-column: $i;
                                 }
                                 img{
                                     width: $imagencontenedor;
