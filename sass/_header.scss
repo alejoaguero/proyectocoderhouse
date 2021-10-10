@@ -10,7 +10,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
     background-repeat: no-repeat;
     background-size: cover;
             .header__login{
@@ -31,15 +30,12 @@
                     font-weight: 600;
                 }
             }
-            .header__logo{
-                margin-right: 50px;
-            }
             .header__sticky{
                 width: 100%;
                 background-color: #546588;
                 position: sticky;
                 top: 20px;
-                @media(max-width:425px){
+                @media(max-width: 560px){
                     display: none;
                 }
                 .header__navegador{
@@ -89,6 +85,9 @@
             }
             .container-fluid{
                 display: none;
+                    @media (max-width: 560px){
+                        display: block;
+                    }
             }
 }
 
